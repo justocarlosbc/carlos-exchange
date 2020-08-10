@@ -216,10 +216,3 @@ td {
   text-align: center;
 }
 </style>
-
-<style scoped>
-td {
-  padding: 10px;
-  text-align: center;
-}
-</style>
