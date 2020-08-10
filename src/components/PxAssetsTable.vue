@@ -22,7 +22,9 @@
         <td>
           <img
             class="h-16 w-16"
-            :src="`https://static.coincap.io/assets/icons/${a.symbol.toLowerCase()}@2x.png`"
+            :src="
+              `https://static.coincap.io/assets/icons/${a.symbol.toLowerCase()}@2x.png`
+            "
             :alt="a.name"
           />
         </td>
