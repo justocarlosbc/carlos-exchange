@@ -1,0 +1,17 @@
+<template>
+  <main>
+    <div>
+      <px-assets-table></px-assets-table>
+    </div>
+  </main>
+</template>
+
+<script>
+import PxAssetsTable from "@/components/PxAssetsTable";
+
+export default {
+  name: "Home",
+
+  components: { PxAssetsTable }
+};
+</script>
